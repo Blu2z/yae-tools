@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "yae_core", "yae_core\yae_core.vcproj", "{AB983738-94F1-4975-9ABC-6D4A3137E170}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "yae_plugin_3dsmax", "yae_plugin_3dsmax\yae_plugin_3dsmax.vcproj", "{6D454517-99DB-453B-8949-DFF679AE7B91}"
+	ProjectSection(ProjectDependencies) = postProject
+		{AB983738-94F1-4975-9ABC-6D4A3137E170} = {AB983738-94F1-4975-9ABC-6D4A3137E170}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "yae_plugin_maya", "yae_plugin_maya\yae_plugin_maya.vcproj", "{18755926-789E-4A1C-B753-5A42CA825FDB}"
+	ProjectSection(ProjectDependencies) = postProject
+		{AB983738-94F1-4975-9ABC-6D4A3137E170} = {AB983738-94F1-4975-9ABC-6D4A3137E170}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		3DSMax11|Win32 = 3DSMax11|Win32
+		Maya2011|Win32 = Maya2011|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AB983738-94F1-4975-9ABC-6D4A3137E170}.3DSMax11|Win32.ActiveCfg = Release|Win32
+		{AB983738-94F1-4975-9ABC-6D4A3137E170}.3DSMax11|Win32.Build.0 = Release|Win32
+		{AB983738-94F1-4975-9ABC-6D4A3137E170}.Maya2011|Win32.ActiveCfg = Release|Win32
+		{AB983738-94F1-4975-9ABC-6D4A3137E170}.Maya2011|Win32.Build.0 = Release|Win32
+		{6D454517-99DB-453B-8949-DFF679AE7B91}.3DSMax11|Win32.ActiveCfg = 3DSMax11|Win32
+		{6D454517-99DB-453B-8949-DFF679AE7B91}.3DSMax11|Win32.Build.0 = 3DSMax11|Win32
+		{6D454517-99DB-453B-8949-DFF679AE7B91}.Maya2011|Win32.ActiveCfg = Maya2011|Win32
+		{18755926-789E-4A1C-B753-5A42CA825FDB}.3DSMax11|Win32.ActiveCfg = Maya2011|Win32
+		{18755926-789E-4A1C-B753-5A42CA825FDB}.Maya2011|Win32.ActiveCfg = Maya2011|Win32
+		{18755926-789E-4A1C-B753-5A42CA825FDB}.Maya2011|Win32.Build.0 = Maya2011|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
