@@ -64,8 +64,8 @@ void model_import::set_mesh( Mesh &m1, yae::mesh &m2 )
 
 	for( unsigned i = 0; i < idx.size() / 3; i++ )
 	{
-		m1.faces[i].setVerts( idx[i*3+2], idx[i*3+1], idx[i*3] );
-		m1.tvFace[i].setTVerts( idx[i*3+2], idx[i*3+1], idx[i*3] );
+		m1.faces[i].setVerts( idx[i*3], idx[i*3+1], idx[i*3+2] );
+		m1.tvFace[i].setTVerts( idx[i*3], idx[i*3+1], idx[i*3+2] );
 		m1.faces[i].setSmGroup( 1 );
 		m1.faces[i].setEdgeVisFlags( 1, 1, 1 );
 	}

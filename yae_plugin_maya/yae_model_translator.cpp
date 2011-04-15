@@ -59,8 +59,8 @@ MStatus yae_model_translator::create_shape( const yae::mesh &m )
 	yae::mesh::normals mn = m.get_normals();
 
 	for( unsigned i = 0; i < mv.size(); i++ ) {
-		v.append( mv[i].x, mv[i].z, mv[i].y );
-		norm.append( MVector( mn[i].x, mn[i].z, mn[i].y ) );
+		v.append( mv[i].x, mv[i].z, -mv[i].y );
+		norm.append( MVector( mn[i].x, mn[i].z, -mn[i].y ) );
 	}
 
 	for( unsigned i = 0; i < mi.size() / 3; i++ ) {
