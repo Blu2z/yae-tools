@@ -794,7 +794,7 @@
 			/>
 		</Configuration>
 		<Configuration
-			Name="Maya8.5|Win32"
+			Name="Maya85|Win32"
 			OutputDirectory="$(SolutionDir)$(ConfigurationName)"
 			IntermediateDirectory="$(ConfigurationName)"
 			ConfigurationType="2"
@@ -871,7 +871,7 @@
 			/>
 		</Configuration>
 		<Configuration
-			Name="Maya8.5|x64"
+			Name="Maya85|x64"
 			OutputDirectory="$(SolutionDir)$(PlatformName)\$(ConfigurationName)"
 			IntermediateDirectory="$(PlatformName)\$(ConfigurationName)"
 			ConfigurationType="2"
@@ -1040,7 +1040,7 @@
 				/>
 			</FileConfiguration>
 			<FileConfiguration
-				Name="Maya8.5|Win32"
+				Name="Maya85|Win32"
 				>
 				<Tool
 					Name="VCCLCompilerTool"
@@ -1048,7 +1048,7 @@
 				/>
 			</FileConfiguration>
 			<FileConfiguration
-				Name="Maya8.5|x64"
+				Name="Maya85|x64"
 				>
 				<Tool
 					Name="VCCLCompilerTool"
