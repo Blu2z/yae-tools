@@ -15,8 +15,8 @@ DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE
 
 ******************************************************************************/
 
-#ifndef __MAYA_PRECOMPILED_H__
-#define __MAYA_PRECOMPILED_H__
+#ifndef __MAYA_YAE_PRECOMPILED_H__
+#define __MAYA_YAE_PRECOMPILED_H__
 
 #include <iostream>
 #include <map>
@@ -52,4 +52,4 @@ DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE
 #include <yae_core/file_system.h>
 #include <yae_core/reader.h>
 
-#endif // __MAYA_PRECOMPILED_H__
+#endif // __MAYA_YAE_PRECOMPILED_H__

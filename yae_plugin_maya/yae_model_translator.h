@@ -15,8 +15,8 @@ DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE
 
 ******************************************************************************/
 
-#ifndef __MAYA_METRO_MODEL_TRANSLATOR_H__
-#define __MAYA_METRO_MODEL_TRANSLATOR_H__
+#ifndef __MAYA_YAE_MODEL_TRANSLATOR_H__
+#define __MAYA_YAE_MODEL_TRANSLATOR_H__
 
 namespace yae_maya
 {
@@ -47,4 +47,4 @@ namespace yae_maya
 	};
 }
 
-#endif // __MAYA_METRO_MODEL_TRANSLATOR_H__
+#endif // __MAYA_YAE_MODEL_TRANSLATOR_H__
