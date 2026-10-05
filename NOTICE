@@ -1,0 +1,10 @@
+yae-dcc-plugins — the 2011 import plug-ins for 3ds Max and Maya
+
+The plug-ins are under the WTFPL, version 2 (LICENSE), as their original authors
+released them: 20 of the 25 source files carry that header. The 3ds Max and
+Maya SDKs they build against are Autodesk's and are not part of this
+repository.
+
+You Are Empty, its content and the original DS2 Engine belong to their rights
+holders. None of it is part of this repository; the project is not affiliated
+with the rights holders.
